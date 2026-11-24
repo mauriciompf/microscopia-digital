@@ -1,7 +1,9 @@
 {
   "name": "microscopia-digital",
-  "private": true,
-  "version": "0.0.0",
+  "private": false,
+  "version": "0.0.1",
+  "description": "Ferramenta de busca e visualização de lâminas escaneadas de um microscopio.",
+  "author": "Maurício Farias",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -19,6 +21,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
+    "@firebase-oss/ui-core": "^7.1.0",
     "@firebase-oss/ui-react": "^7.1.0",
     "@testing-library/dom": "^10.4.2",
     "@testing-library/jest-dom": "^8.0.0",
